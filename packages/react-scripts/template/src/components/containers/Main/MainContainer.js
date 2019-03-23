@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class MainContainer extends Component {
+
   render() {
-    return <div>{this.props.children}</div>;
+    return (
+      <div>
+        { this.props.children }
+      </div>
+    );
   }
 }
 

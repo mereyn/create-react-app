@@ -6,7 +6,7 @@ const routes = [
     path: '/',
     exact: true,
     auth: false,
-    component: Home,
+    component: Home
   },
   {
     path: '/sign-in',
@@ -14,6 +14,6 @@ const routes = [
     auth: false,
     component: SignIn,
   },
-];
+]
 
-export default routes;
+export default routes

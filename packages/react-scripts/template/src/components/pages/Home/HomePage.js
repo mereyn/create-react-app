@@ -3,11 +3,10 @@ import logo from './logo.svg';
 import './_home.css';
 
 class HomePage extends Component {
+
   getEnvValues() {
     if (!process.env.REACT_APP_USER_ID || !process.env.REACT_APP_ID) {
-      throw new Error(
-        'Please define `REACT_APP_USER_ID` and `REACT_APP_ID` in your .env file'
-      );
+      throw new Error('Please define `REACT_APP_USER_ID` and `REACT_APP_ID` in your .env file');
     }
 
     const userID = process.env.REACT_APP_USER_ID;
@@ -17,6 +16,7 @@ class HomePage extends Component {
   }
 
   render() {
+
     const { userID, appID } = this.getEnvValues();
 
     return (
@@ -26,10 +26,8 @@ class HomePage extends Component {
           <h2>Welcome to Neztek</h2>
         </div>
         <p className="App-intro">
-          <b> Employee ID: {userID} </b>
-          <br />
-          <br />
-          <b> Application ID: {appID} </b>
+           <b> Employee ID: { userID } </b><br/><br/>
+           <b> Application ID: { appID } </b>
         </p>
       </div>
     );
