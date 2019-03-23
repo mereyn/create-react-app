@@ -8,4 +8,4 @@ Latest version of original react-scripts: **2.1.8**
 
 ### How to use it
 
-`create-react-app my-app --scripts-version react-scripts-custom-templates`
+`create-react-app my-app --scripts-version react-scripts-custom-template`
