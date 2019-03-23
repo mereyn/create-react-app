@@ -1,4 +1,4 @@
-# Create React App Neztek
+# React Scripts Custom Template
 
 ### Disclaimer:
 
