@@ -1,7 +1,11 @@
-# react-scripts
+# react-scripts-custom-template
 
-This package includes scripts and configuration used by [Create React App](https://github.com/facebook/create-react-app).<br>
-Please refer to its documentation:
+Latest version of original react-scripts: **2.1.8**
 
-- [Getting Started](https://facebook.github.io/create-react-app/docs/getting-started) – How to create a new app.
-- [User Guide](https://facebook.github.io/create-react-app/) – How to develop apps bootstrapped with Create React App.
+### Disclaimer:
+
+> This is not a fork of create-react-app, it is just a fork of react-scripts to customized setups and template.
+
+### How to use it
+
+`create-react-app my-app --scripts-version react-scripts-custom-templates`
