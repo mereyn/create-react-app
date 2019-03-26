@@ -11,7 +11,11 @@ Package can be found on [npm](https://www.npmjs.com/package/react-scripts-custom
 `create-react-app my-app --scripts-version react-scripts-custom-template`
 
 ## Features
-
+* Redux
+* Configure Store for development and production
+* Material UI
+* Sample Sign-in template
+* Home template
 
 ## License
 
