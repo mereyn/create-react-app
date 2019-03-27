@@ -20,8 +20,6 @@ module.exports = (resolve, rootDir, isEjecting) => {
   const setupTestsFile = fs.existsSync(paths.testsSetup)
     ? `<rootDir>/src/setupTests.${setupTestsFileExtension}`
     : `<rootDir>/node_modules/react-scripts-custom-template/config/setupTests.${setupTestsFileExtension}`;
-
-    console.log(setupTestsFile);
   const config = {
     collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!src/**/*.d.ts'],
 
