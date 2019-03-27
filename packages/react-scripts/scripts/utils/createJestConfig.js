@@ -19,8 +19,9 @@ module.exports = (resolve, rootDir, isEjecting) => {
     (setupTestsMatches && setupTestsMatches[1]) || 'js';
   const setupTestsFile = fs.existsSync(paths.testsSetup)
     ? `<rootDir>/src/setupTests.${setupTestsFileExtension}`
-    : undefined;
+    : `<rootDir>/node_modules/react-scripts-custom-template/config/setupTests.${setupTestsFileExtension}`;
 
+    console.log(setupTestsFile);
   const config = {
     collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!src/**/*.d.ts'],
 
@@ -33,6 +34,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
     setupFilesAfterEnv: setupTestsFile ? [setupTestsFile] : [],
     testMatch: [
       '<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}',
+      '<rootDir>/src/**/tests/**/*.{js,jsx,ts,tsx}',
       '<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}',
     ],
     testEnvironment: 'jsdom',
