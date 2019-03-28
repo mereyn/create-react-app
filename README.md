@@ -2,7 +2,7 @@
 
 ### Disclaimer:
 
-> This is not a fork of create-react-app, it is just a fork of react-scripts to customized setups and template.
+> This is not a fork of create-react-app, it is just a fork of react-scripts to customize setups and template.
 
 Package can be found on [npm](https://www.npmjs.com/package/react-scripts-custom-template).
 
@@ -11,9 +11,16 @@ Package can be found on [npm](https://www.npmjs.com/package/react-scripts-custom
 `create-react-app my-app --scripts-version react-scripts-custom-template`
 
 ## Features
+
 * Material UI
 * Sample Sign-in template
-* Home template
+* Sample Home template
+* Sample Dashboard template
+* Component testing with jest and enzyme
+
+## How to run test
+
+`npm run test`
 
 ## License
 
@@ -26,4 +33,5 @@ Use this however and where ever you want.
 They are welcome, and encouraged.
 
 ## References
-[Material UI](https://material-ui.com/getting-started/installation/).
+
+[Material UI](https://material-ui.com/getting-started/installation/)
